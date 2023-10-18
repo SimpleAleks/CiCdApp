@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{8B60B71B-778F-47E1-A547-87ACB88C4635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCdApp.Hosts.Api", "src\Hosts\CiCdApp.Hosts.Api\CiCdApp.Hosts.Api.csproj", "{7448F81C-E041-4054-BCAC-E2EA760480CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B83503D9-1777-4B49-885B-2B73BA4086F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCdApp.Tests", "src\Tests\CiCdApp.Tests\CiCdApp.Tests.csproj", "{0B60FD62-356C-40E2-950F-97F932403F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7448F81C-E041-4054-BCAC-E2EA760480CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7448F81C-E041-4054-BCAC-E2EA760480CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7448F81C-E041-4054-BCAC-E2EA760480CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7448F81C-E041-4054-BCAC-E2EA760480CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B60FD62-356C-40E2-950F-97F932403F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B60FD62-356C-40E2-950F-97F932403F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B60FD62-356C-40E2-950F-97F932403F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B60FD62-356C-40E2-950F-97F932403F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7448F81C-E041-4054-BCAC-E2EA760480CA} = {8B60B71B-778F-47E1-A547-87ACB88C4635}
+		{0B60FD62-356C-40E2-950F-97F932403F97} = {B83503D9-1777-4B49-885B-2B73BA4086F4}
+	EndGlobalSection
+EndGlobal
